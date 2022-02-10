@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practise</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 id="header" >Javascript Practise </h1>
+    <h2>Functions</h2>
+    <p>JS methods/functions:
+    <ul id="ul-demo">
+        <li>alert("hello this is...")</li>
+        <li> let num = propmt("please add value")
+            <ul>
+                <li> - use parseInt "to extract interger values from inputs of promt"</li>
+            </ul>
+        </li>
+        <li>Window.innerwidth = get width of viewport i.e current is: 
+            <ul>
+                <li>current Viewport width is: <b><span id="vw">number</span></b></li>
+                <li>current Viewport height is: <b><span id="vh">number</span></b></li>
+            </ul>
+        </li>
+        <li>change num into string, just concatenate with "" (it'll still compute) <br>
+            i.e let x = 1 + 2 + "" // will return '3' (3 with as a string)</li>
+    </ul>
+    In this page are adding Javascript in the script tag <br>
+    ALSO, background color change if vw less than 786
+    </p>
+    <br>
+
+    <h3>JS funcion Button Practise</h3>
+    <div>
+        <button onclick="update()">Alert & Update Date Now</button>
+        <p>Today's date is <b><span id="date-id">date</span></b></p>
+    </div>
+
+    <h3>JS: Change Style Practise</h3>
+    <div>
+        <h3 id="change-font">Change my Font and Style with Button</h3>
+        <button onclick="changeFont()">Change font</button>
+        <button onclick="changeColor()">Change color</button>
+    </div>
+
+    <h3>JS: Entering Password - Check Validation</h3>
+    <div>
+        <label for="Password">First name:</label>
+        <input type="text" placeholder="Password" id="Password">
+        <button type="button" onclick="checkPassword()">Check Password</button>
+        <p>Your password is: <b><span id="password-check">info</span></b>
+        <br>
+        <sub>*Needs to contain 6+ Characters, no space</sub>
+        </p>
+    </div>
+
+
+    <h3>JS: Random Number Count Function </h3>
+    <div>
+        <p>Counting the number of times a 'random number' is generated given a range (1-3) and number for loop</p>
+        <p>One comes up <b><span id="one">one</span></b> times.</p>
+        <p>Two comes up <b><span id="two">two</span></b> times.</p>
+        <p>Three comes up <b><span id="three">three</span></b> times.</p>
+        
+    </div>
+    
+    
+    <h3>JS: Lexical Scope - Nested Functions </h3>
+    <div id="hero">
+    <button type="button" onclick="bankRobbery()">Call for Help</button>
+    </div>
+
+
+    <h3>JS: Higher Order Function </h3>
+    <div>
+    <button type="button" onclick="callTwice(rollDie)">Call twice console.log</button>
+    </div>
+
+
+    <h3>JS: Iterators </h3>    
+    <p>forEach, map, filter</p>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
