@@ -11,3 +11,10 @@ h1 {
 h3 {
     font-size: 1.5em;
 }
+
+div button {
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+
+}

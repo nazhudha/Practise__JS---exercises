@@ -1,3 +1,5 @@
+// Change Body Background
+
 const button = document.querySelector('button');
 const span = document.querySelector('span');
 
@@ -14,3 +16,17 @@ const makeRandColor = () => {
     const b = Math.floor(Math.random() * 255);
     return `rgb(${r}, ${g}, ${b})`;
 }
+
+// Change Button Background
+
+const buttons = document.querySelectorAll('button');
+
+for (let button of buttons) {
+    button.addEventListener('click', colorize)
+    }
+
+
+    function colorize() {
+        this.style.backgroundColor = makeRandColor();
+        this.style.color = makeRandColor();
+    }
