@@ -1,0 +1,5 @@
+{
+    "pet": ["cat", "dog", "hamster", "lizard"],
+    "breed": {"dog": "bull dog", "cat": "persian" },
+    "superPowers": ["fly", "fast", "strong", "small"]
+}
