@@ -1,0 +1,7 @@
+* {
+  box-sizing:border-box;
+}
+
+body{
+  transition: 1s background-color;
+}

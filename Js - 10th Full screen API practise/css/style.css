@@ -1,0 +1,28 @@
+* {
+  box-sizing:border-box;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.full {
+  background-color: whitesmoke;
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-size: 3em;
+  font-family: sans-serif;
+}
