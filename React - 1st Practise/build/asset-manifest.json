@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/git@github.com:nazhudha/Practise__NESS-Tailwind-React-exercises/tree/main/3rd%20-%20React%20Practise/static/css/main.073eef77.css",
+    "main.js": "/git@github.com:nazhudha/Practise__NESS-Tailwind-React-exercises/tree/main/3rd%20-%20React%20Practise/static/js/main.e63f32aa.js",
+    "static/js/787.28cb0dcd.chunk.js": "/git@github.com:nazhudha/Practise__NESS-Tailwind-React-exercises/tree/main/3rd%20-%20React%20Practise/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/git@github.com:nazhudha/Practise__NESS-Tailwind-React-exercises/tree/main/3rd%20-%20React%20Practise/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/git@github.com:nazhudha/Practise__NESS-Tailwind-React-exercises/tree/main/3rd%20-%20React%20Practise/index.html",
+    "main.073eef77.css.map": "/git@github.com:nazhudha/Practise__NESS-Tailwind-React-exercises/tree/main/3rd%20-%20React%20Practise/static/css/main.073eef77.css.map",
+    "main.e63f32aa.js.map": "/git@github.com:nazhudha/Practise__NESS-Tailwind-React-exercises/tree/main/3rd%20-%20React%20Practise/static/js/main.e63f32aa.js.map",
+    "787.28cb0dcd.chunk.js.map": "/git@github.com:nazhudha/Practise__NESS-Tailwind-React-exercises/tree/main/3rd%20-%20React%20Practise/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073eef77.css",
+    "static/js/main.e63f32aa.js"
+  ]
+}
