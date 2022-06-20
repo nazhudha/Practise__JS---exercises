@@ -36,5 +36,9 @@ Using in built Browser ‘Full screen’ Api and toggling fullscreen mode on and
 
 [Code pen Link](https://codepen.io/nazhudha/pen/XWVjjyY)
 
+### Js - 8th Makers JS Fundamentals
+Working on JS practise on Makers Bootcamp 
+
+
 ### React - 1st Practise
 First React App practising, creating components, and manipulating virtual dom, changing data on variable, inputs and validation 
