@@ -14,14 +14,14 @@ const candies = [
   { name: "Fraise Tagada", price: 5.99 },
 ];
 
-const searchCandies = (candy) => {
+const searchCandies = (str, price) => {
   let arr = [];
-  candies.filter(el => {
-    if (el['name'].includes(candy)) {
-    arr.push(el['name'])
-  };
-})
-return arr;
-}
+  candies.filter((candy) => {
+    if (candy["name"].includes(str) && candy['price'] < price ) {
+      arr.push(candy["name"]);
+    }
+  });
+  return arr;
+};
 
 module.exports = searchCandies;
