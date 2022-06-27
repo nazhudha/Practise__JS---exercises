@@ -1,14 +1,27 @@
-const Header = () => {
-  const name = 'Naz'
-  const x = true
-  
-  return (
-<header>
-  <h1>Task Tracker</h1>
-  <h2>Hi {name } </h2>
-  <h2>Teneary  Operator {x ? 'yes' : 'no'} </h2>
-</header>
-  )
-}
+import Button from "./Button";
 
-export default Header 
+const Header = ({ title }) => {
+  const onClick = () => {
+    console.log('clicked')
+  }
+
+  return (
+    <header className="header ">
+      <h1>{title}</h1>
+      <Button color="green" text="Add" onClick={onClick} />
+      <Button  text="Add" />
+    </header>
+  );
+};
+
+Header.defaultProps = {
+  title: "Task Tracker",
+};
+
+//CSS in JSX
+// const headingStyle = {
+//   color: 'red',
+//   backgroundColor: "blue"
+// }
+
+export default Header;
