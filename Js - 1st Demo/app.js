@@ -135,5 +135,3 @@ let doubleNumbers = numbers.map(function(n){
 let filteredNum = numbers.filter(n => {
     return n % 2 == 0
 })
-
-const arr = {1:3, 1:434}
