@@ -13,6 +13,11 @@ got(url)
     console.log(obj)
    });
    
+fetch('https://api.github.com/repos/sinatra/sinatra')
+.then(res => {
+    console.log("Response", res);
+    res.json().then((data) => console.log("JSON DAT", data));
+   })
 
   // const stringValue = '{ "name": "John" }';
   // console.log (stringValue.name)
